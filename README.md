@@ -8,7 +8,7 @@
 
 Train dataset graph
 
-![Alt text]()
+![Alt text](https://github.com/AMMARHAFIZ8/Covid19-Prediction/blob/main/Graph%20and%20figure/eda.png)
 
 
 ### 3) Data Cleaning
@@ -21,8 +21,6 @@ Train dataset graph
  - MinMaxScaler
 
   
-  
-
 ## Model Development
 
 1) LSTM Bidirectional Embedding
@@ -34,19 +32,20 @@ Plot predicted graph.
 
 Mape
 
-![Alt text]()
+![Alt text](https://github.com/AMMARHAFIZ8/Covid19-Prediction/blob/main/Graph%20and%20figure/Figure%202022-07-01%20105347%20Mape.png)
 
 Loss
 
-![Alt text]()
+![Alt text](https://github.com/AMMARHAFIZ8/Covid19-Prediction/blob/main/Graph%20and%20figure/loss.png)
 
 
 ## Model Deployment
 
 ## Model Evaluation / Analysis
-![Alt text]()
 
-![Alt text]()
+![Alt text](https://github.com/AMMARHAFIZ8/Covid19-Prediction/blob/main/Graph%20and%20figure/Figure%202022-07-01%20104336.png)
+
+![Alt text](https://github.com/AMMARHAFIZ8/Covid19-Prediction/blob/main/Graph%20and%20figure/Figure%202022-07-01%20104313.png)
 
 MSE , MAPE
 1) mean absolute error 
@@ -61,11 +60,9 @@ The mean absolute error is 7%  and mean absolute percentage error of this model 
 Model is consider great and its learning from the training.  
 Training graph shows an overfitting since the training accuracy is higher  than validation accuracy
      
-This model seems not give any effect although Earlystopping with LSTM can overcome overfitting.
-With suggestion to overcome overfitting can try other 
-architecture like BERT, transformer or GPT3 model.
+Model
 
-
+![Alt text](https://github.com/AMMARHAFIZ8/Covid19-Prediction/blob/main/Graph%20and%20figure/model.png)
 
 
 [Credit](https://github.com/MoH-Malaysia/covid19-public)
