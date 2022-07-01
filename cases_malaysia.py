@@ -115,10 +115,12 @@ hist.history.keys()
 hist_keys = [i for i in hist.history.keys()]
 
 plt.figure()
+plt.title('mape')
 plt.plot(hist.history['mape'])
 plt.show()
 
 plt.figure()
+plt.title('loss')
 plt.plot(hist.history['loss'])
 plt.show()
 
